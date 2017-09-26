@@ -15,6 +15,7 @@
 		928D20A11F7A37B9004145F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D209F1F7A37B9004145F8 /* LaunchScreen.storyboard */; };
 		928D20AC1F7A37B9004145F8 /* SearchBarTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D20AB1F7A37B9004145F8 /* SearchBarTableViewTests.swift */; };
 		928D20B71F7A37B9004145F8 /* SearchBarTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D20B61F7A37B9004145F8 /* SearchBarTableViewUITests.swift */; };
+		928D20C51F7A3960004145F8 /* SearchBarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D20C41F7A3960004145F8 /* SearchBarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		928D20B21F7A37B9004145F8 /* SearchBarTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D20B61F7A37B9004145F8 /* SearchBarTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarTableViewUITests.swift; sourceTree = "<group>"; };
 		928D20B81F7A37B9004145F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928D20C41F7A3960004145F8 /* SearchBarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				928D20931F7A37B9004145F8 /* AppDelegate.swift */,
 				928D20951F7A37B9004145F8 /* ViewController.swift */,
+				928D20C41F7A3960004145F8 /* SearchBarTableViewCell.swift */,
 				928D20971F7A37B9004145F8 /* Main.storyboard */,
 				928D209D1F7A37B9004145F8 /* Assets.xcassets */,
 				928D209F1F7A37B9004145F8 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				928D20961F7A37B9004145F8 /* ViewController.swift in Sources */,
+				928D20C51F7A3960004145F8 /* SearchBarTableViewCell.swift in Sources */,
 				928D209C1F7A37B9004145F8 /* SearchBarTableView.xcdatamodeld in Sources */,
 				928D20941F7A37B9004145F8 /* AppDelegate.swift in Sources */,
 			);
